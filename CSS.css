@@ -1,0 +1,41 @@
+/*  Section 1
+ *  Not inline, force a break
+ *  Block Statements: blockquote, div, dl, form, h, tags, hr, ol, p, table, ul
+        
+body{
+	color: green;
+	font-family: verdana, arial, sans-serif;
+}
+        
+p{
+	color: purple;
+}
+        
+h1, h2, em, b {
+	font-family: times new roman, georgia, serif;
+}
+        
+a{
+	font-family: verdana, arial, sans-serif;
+}
+*/
+        
+/*Section 2*/
+
+h1{
+	font-family: times new roman, georgia, serif;
+	font-size: 14px;
+}
+        
+h1.purple{
+	color: purple;
+}
+        
+h1.green{
+	color: green;
+}
+        
+.purpleserif {
+	font-family: times new roman, georgia, serif;
+	color: purple;
+}
