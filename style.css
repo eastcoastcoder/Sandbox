@@ -1,0 +1,31 @@
+body {
+    margin: 40px;
+    padding: 0;
+    background-attachment: fixed;  
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url("bg.jpg");
+    color: white;
+    text-align: center; 
+    border:2px solid black;
+}
+
+p[id*='Time']{
+    color: red; 
+}
+
+#firstName, #lastName, #occ, #hobby, #subject, #explain {
+    text-transform: capitalize; 
+}
+header, section, footer {
+    background-color:grey;
+	opacity:0.8;
+	filter: alpha(opacity=80);
+	
+ 	text-align:center; 
+}
+header { 
+    padding: 30px 0;
+	opacity: 0.85;
+    font-size: 38.0pt; 
+}    

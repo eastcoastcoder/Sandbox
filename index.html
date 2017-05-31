@@ -1,5 +1,146 @@
-<head>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>	
+	<title>Lab 2</title>
+	<meta name="Author" content="Ethan Richardson" />
+	<meta name="Description" content="Form Verification" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js"></script>
 </head>
+
 <body>
-<h4><strong>NOPE!</strong></h4>
-</body>
+    <center>
+        <header>
+            Oil Calculator
+        </header>
+        
+        <section>
+            <article>
+                <br /><form>Initial Height:
+                <select id="initialFeet">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6 selected>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+                Feet
+                <select id="initialInches">
+                    <option value=1>1</option>
+                    <option value=2 selected>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+                Inches, @:
+                <select id="initialHour">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11 selected>11</option>
+                    <option value=12>12</option>
+                </select>
+                <select id="initialMin">
+                    <option value=00 selected>00</option>
+                    <option value=30>30</option>
+                </select>
+                <select id="initialAMPM">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+                </form>
+                
+                <br /><form>Final Height:
+                <select id="finalFeet">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7 selected>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+                Feet
+                <select id="finalInches">
+                    <option value=1>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7 selected>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+                Inches, @:
+                <select id="finalHour">
+                    <option value=1 selected>1</option>
+                    <option value=2>2</option>
+                    <option value=3>3</option>
+                    <option value=4>4</option>
+                    <option value=5>5</option>
+                    <option value=6>6</option>
+                    <option value=7>7</option>
+                    <option value=8>8</option>
+                    <option value=9>9</option>
+                    <option value=10>10</option>
+                    <option value=11>11</option>
+                    <option value=12>12</option>
+                </select>
+                <select id="finalMin">
+                    <option value=00 selected>00</option>
+                    <option value=30>30</option>
+                </select>
+                <select id="finalAMPM">
+                    <option value="AM">AM</option>
+                    <option value="PM" selected>PM</option>
+                </select>
+                </form>
+                <p id="initialTimeDisplay"></p>
+                <p id="finalTimeDisplay"></p>
+                <p id="timeDiff"></p>
+                
+                <p id="work"></p>
+                <p id="total"></p>
+
+                <button type="button" onclick="validateForm()">Calcluate</button>
+            </article>
+        </section>
+    
+    <footer>
+        <small> 
+            &copy; Copyright 2017 Ethan Richardson 
+        </small>
+    </footer>
+    </center>
+</body>	
+</html>
